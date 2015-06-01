@@ -1,0 +1,4 @@
+{{ if isset .Params "image" }}
+  <div style='background:url({{ index .Params "image" }}) center/cover' class='featured-image blur'></div>
+  <div style='background:url({{ index .Params "image" }}) center/cover' class='featured-image noblur'></div>
+{{ end }}
