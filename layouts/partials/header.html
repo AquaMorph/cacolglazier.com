@@ -14,17 +14,9 @@
   <div class="header">
       <div id="mobile">
       	<div id="box" onClick="toggleVisibility('menu')"><div id="line"></div><div id="line"></div><div id="line"></div></div>
-      	<a href="/index"><h1>CA Colglazier</h1></a>
+      	<a href="/index"><h1>C A Colglazier</h1></a>
       </div>
-      <div id="menu">
-          <ul>
-              <li><a href="/index">About Me</a></li>
-              <li><a href="/apps">Apps</a></li>
-              <li><a href="/videos">Videography</a></li>
-              <li><a href="/photos">Photography</a></li>
-              <li><a href="/contact">Contact Me</a></li>
-          </ul>
-      </div>
+      {{ partial "menu.html" . }}
   </div>
   <div class='feature-container'>
     <div class='feature-img'>
@@ -33,7 +25,7 @@
             <div style='background:url($img) center/cover' class='featured-image noblur'></div>
         </div>
     </div>
-    <div class='feature-text'><h1>$text</h1></div>
+    <div class='feature-text'><h1>{{ .Title }}</h1></div>
   </div>
   <div class='wrapper'>
   <div class='content'>
