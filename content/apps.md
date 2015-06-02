@@ -1,8 +1,7 @@
 +++
 date = "2015+05+31T16:17:12+04:00"
 title = "Apps"
-image = "/img/apps.png"
-
+image = "/img/apps.jpg"
 +++
 
 # Play Stopper
