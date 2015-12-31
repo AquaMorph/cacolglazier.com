@@ -11,7 +11,6 @@ before_install:
 install: go get -v github.com/spf13/hugo
 script: 
 - npm start
-- gulp build</pre>
 
 after_success:
     gulp deploy --user $FTP_USER --password $FTP_PASSWORD --URL $FTP_URL</pre>
