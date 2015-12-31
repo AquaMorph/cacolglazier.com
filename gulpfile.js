@@ -1,6 +1,8 @@
 var gulp = require('gulp'),
     ftp = require('vinyl-ftp'),
-    gutil = require('gulp-util');
+    gutil = require('gulp-util')
+    minimist = require('minimist'),
+    args = minimist(process.argv.slice(3));
 
 
 gulp.task('deploy', function() {
