@@ -11,7 +11,7 @@ gulp.task('deploy', function() {
         log: gutil.log
     });
 
-    var output = 'public/**';
+    var output = '.';
 
     return gulp.src(output, {
         base: '.',
