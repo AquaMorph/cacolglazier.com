@@ -1,5 +1,7 @@
-var ftp = require('vinyl-ftp');
-var gutil = require('gulp-util');
+var gulp = require('gulp'),
+    ftp = require('vinyl-ftp'),
+    gutil = require('gulp-util');
+
 
 gulp.task('deploy', function() {
     var connection = ftp.create({
