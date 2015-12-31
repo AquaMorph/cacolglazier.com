@@ -1,15 +1,12 @@
 var gulp = require('gulp'),
     ftp = require('vinyl-ftp'),
     gutil = require('gulp-util')
-    minimist = require('minimist'),
-    args = minimist(process.argv.slice(3));
-
 
 gulp.task('deploy', function() {
     var connection = ftp.create({
-        host: args.url,
-        user: args.user,
-        password: args.password,
+        host: process.env.FTP_URL,
+        user: process.env.FTP_USER,
+        password: process.env.FTP_PASSWORD,
         log: gutil.log
     });
 
