@@ -11,8 +11,6 @@ gulp.task('deploy', function() {
         log: gutil.log
     });
 
-    var output = '';
-
     return gulp.src('public/**')
         .pipe(connection.newer('/'))
         .pipe(connection.dest('/'));

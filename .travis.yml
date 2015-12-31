@@ -13,7 +13,7 @@ script:
 - npm start
 
 after_success:
-    gulp deploy --user $FTP_USER --password $FTP_PASSWORD --url $FTP_URL</pre>
+    gulp deploy --user $FTP_USER --password $FTP_PASSWORD --url $FTP_URL
 
 branches:
   only:
