@@ -11,10 +11,10 @@ gulp.task('deploy', function() {
         log: gutil.log
     });
 
-    var output = '.';
+    var output = 'public/**';
 
     return gulp.src(output, {
-        base: '.',
+        base: './public',
         buffer: false
     })
       .pipe(connection.newer('/'))
