@@ -1,0 +1,23 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AquaMorph/cacolglazier.com.git"
+  },
+  "author": "Christian Colglazier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AquaMorph/cacolglazier.com/issues"
+  },
+  "homepage": "http://cacolglazier.com/",
+    "devDependencies": {
+        "gulp": "^3.8.11",
+        "gulp-minify-html": "^1.0.2",
+        "gulp-minify-css": "^1.2.1",
+        "gulp-util": "^3.0.5",
+        "vinyl-ftp": "^0.4.1"
+  }
+}
