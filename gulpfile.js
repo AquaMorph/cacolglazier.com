@@ -13,7 +13,12 @@ gulp.task('deploy', function() {
         log: gutil.log
     });
 
-    return gulp.src('public/**')
+    var output = 'public/**';
+
+    return gulp.src(output, {
+        base: './public',
+        buffer: false
+    })
         .pipe(connection.newer('/'))
         .pipe(connection.dest('/'));
 });
