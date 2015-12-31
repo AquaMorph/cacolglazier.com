@@ -7,6 +7,7 @@ gulp.task('deploy', function() {
         host: process.env.FTP_URL,
         user: process.env.FTP_USER,
         password: process.env.FTP_PASSWORD,
+        parallel: 2,
         log: gutil.log
     });
 
@@ -16,6 +17,6 @@ gulp.task('deploy', function() {
         base: './public',
         buffer: false
     })
-        .pipe(connection.newer('/'))
-        .pipe(connection.dest('/'));
-});
+      .pipe(connection.newer('/'))
+      .pipe(connection.dest('/'));
+})
