@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "private": true,
+    "scripts": {
+    "start": "hugo && gulp"
+    },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AquaMorph/cacolglazier.com.git"
