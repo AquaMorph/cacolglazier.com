@@ -4,7 +4,7 @@ var minimist = require('minimist');
 var args = minimist(process.argv.slice(2));
 
 gulp.task('deploy', function() {
-    var conn = ftp.create({
+    var connection = ftp.create({
         host: args.url,
         user: args.user,
         password: args.password,
