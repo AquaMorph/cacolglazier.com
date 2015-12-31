@@ -4,7 +4,8 @@
   "description": "",
   "private": true,
     "scripts": {
-    "start": "hugo && gulp"
+        "start": "hugo",
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
   "repository": {
     "type": "git",
