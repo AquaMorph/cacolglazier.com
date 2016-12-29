@@ -1,5 +1,5 @@
 +++
-date = "2015+05+31T16:17:12+04:00"
+date = "2015-05-31"
 title = "Videography"
 image = "/img/CON_001_01_0032.jpg"
 +++
