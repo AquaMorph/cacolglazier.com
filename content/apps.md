@@ -4,6 +4,20 @@ title = "Apps"
 image = "/img/apps.jpg"
 +++
 
+# FRC Manager
+FRC Manager provides live competition data from the Blue Alliance based around your team for the FIRST® Robotics Competition (FRC®). Provides competition schedule as well as a team specific schedule.
+
+Features:
+
++ Material Design
++ Offline Mode
++ Themes
++ Team Schedule
++ Event Schedule
++ Event Rankings
++ Event Awards
++ Event Teams
+
 # Play Stopper
 A simple timer that will stop any audio that is playing when the time is up.
 
