@@ -5,7 +5,7 @@ image = "/img/apps.jpg"
 +++
 
 # FRC Manager
-FRC Manager provides live competition data from the Blue Alliance based around your team for the FIRST® Robotics Competition (FRC®). Provides competition schedule as well as a team specific schedule.
+FRC Manager provides live competition data from the Blue Alliance based around your team for the FIRST Robotics Competition (FRC). Provides competition schedule as well as a team specific schedule.
 
 Features:
 
