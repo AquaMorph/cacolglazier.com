@@ -5,4 +5,6 @@ image = "/img/IMG_9831.jpg"
 
 +++
 
-<iframe src="https://www.flickr.com/photos/aquamorph/player/" width="100%" height="480" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen ></iframe>
+<div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://www.flickr.com/photos/aquamorph/player/" allowfullscreen></iframe>
+</div>
