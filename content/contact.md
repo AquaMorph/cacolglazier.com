@@ -23,7 +23,7 @@ image = "/img/IMG_9848.jpg"
         <label for="form8">Icon Prefix</label>
     </div>
     <div class="text-center">
-        <button type="s" class="btn btn-cyan" value="Send">Submit</button>
+        <button type="s" class="btn btn-info" value="Send">Submit</button>
     </div>
 </form>
 </div>
