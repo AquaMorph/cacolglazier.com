@@ -4,21 +4,28 @@
     <meta name="keywords" content="Christian Colglazier, Colglazier, Android, wake county, north carolina, cary, apex, raleigh" />
     <meta name="description" content="Christian Colglazier" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="/img/favicon.png" />
-    <link rel="stylesheet" href="/css/style.css">
-    <script src="/js/menu.js"></script>
+    <link rel="shortcut icon" href="img/favicon.png" />
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
     <title>{{ .Title }}</title>
 </head>
-<div id='holder'>
-  <div class="headerspace"></div>
-  <div class="header">
-      <div id="mobile">
-      	<div id="box" onClick="toggleVisibility('menu')"><div id="line"></div><div id="line"></div><div id="line"></div></div>
-      	<a href="/"><h1>C A Colglazier</h1></a>
-      </div>
-      {{ partial "menu.html" . }}
-  </div>
-  <div class='feature-container'>
-    <div class='feature-img'>
-        <div class='feature'>
-          {{ partial "image.html" . }}
+<body>
+<div id="wrapper">
+    <!--Navbar-->
+    <nav class="navbar navbar-toggleable-md navbar-dark light-blue">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav1" aria-controls="navbarNav1" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+                <strong>Christian Colglazier</strong>
+            </a>
+            {{ partial "menu.html" . }}
+        </div>
+    </nav>
+    <div class='feature-container'>
+        <div class='feature-img'>
+            <div class='feature'>
+                {{ partial "image.html" . }}
