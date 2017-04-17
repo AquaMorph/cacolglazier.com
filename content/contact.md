@@ -6,7 +6,8 @@ image = "/img/IMG_9848.jpg"
 
 
 <div class="card-block">
-<form action="//formspree.io/christian@cacolglazier.com" method="POST">
+
+<form action="mailto:christian@cacolglazier.com" method="post" enctype="text/plain">
     <div class="md-form">
         <i class="fa fa-user prefix"></i>
         <input type="text" id="form3" name="name" class="form-control">
@@ -20,7 +21,7 @@ image = "/img/IMG_9848.jpg"
     <div class="md-form">
         <i class="fa fa-pencil prefix"></i>
         <textarea type="text" name="message" id="form8" class="md-textarea"></textarea>
-        <label for="form8">Icon Prefix</label>
+        <label for="form8">Your Message</label>
     </div>
     <div class="text-center">
         <button type="s" class="btn btn-info" value="Send">Submit</button>
