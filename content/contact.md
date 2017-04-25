@@ -7,7 +7,7 @@ image = "/img/IMG_9848.jpg"
 
 <div class="card-block">
 
-<form action="mailto:christian@cacolglazier.com" method="post" enctype="text/plain">
+<form action="//formspree.io/christian@cacolglazier.com" method="POST">
     <div class="md-form">
         <i class="fa fa-user prefix"></i>
         <input type="text" id="form3" name="name" class="form-control">
