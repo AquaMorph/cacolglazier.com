@@ -1,6 +1,6 @@
 +++
 date = "2015-05-31"
-title = "Personal Project"
+title = "Personal Projects"
 image = "/img/apps.jpg"
 +++
 
