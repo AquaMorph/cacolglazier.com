@@ -1,6 +1,6 @@
 {{ partial "header.html" . }}
-  <div style='background:url(/img/IMG_9834.jpg) center/cover' class='featured-image blur'></div>
-  <div style='background:url(/img/IMG_9834.jpg) center/cover' class='featured-image noblur'></div>
+  <div style='background:url({{.Site.BaseURL}}/img/IMG_9834.jpg) center/cover' class='featured-image blur'></div>
+  <div style='background:url({{.Site.BaseURL}}/img/IMG_9834.jpg) center/cover' class='featured-image noblur'></div>
 {{ partial "featuretext.html" . }}
             <div class="card-block" style="padding-top: 0">
             <div class="row">
@@ -15,7 +15,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-4">
-                    <img src="img/profile.jpg" class="img-fluid rounded-circle float-right" alt="Responsive image" style="margin-left: 2em">
+                    <img src="{{.Site.BaseURL}}/img/profile.jpg" class="img-fluid rounded-circle float-right" alt="Responsive image" style="margin-left: 2em">
                 </div>
             </div>
             </div>

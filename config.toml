@@ -1,3 +1,4 @@
-baseurl = "http://cacolglazier.com/"
+#baseurl = "http://localhost/cacolglazier.com/public/"
+baseurl = "https://cacolglazier.com"
 languageCode = "en-us"
 title = "Christian Colglazier"
