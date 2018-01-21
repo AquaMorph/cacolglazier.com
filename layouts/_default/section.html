@@ -1,0 +1,8 @@
+{{ partial "header.html" . }}
+  <div style='background:url({{.Site.BaseURL}}/img/IMG_9834.jpg) center/cover' class='featured-image blur'></div>
+  <div style='background:url({{.Site.BaseURL}}/img/IMG_9834.jpg) center/cover' class='featured-image noblur'></div>
+  {{ partial "featuretext.html" . }}
+{{ range .Paginator.Pages }}
+  {{ .Render "list-item"}}
+{{ end }}
+{{ partial "footer.html" . }}
