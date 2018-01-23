@@ -131,3 +131,17 @@ body {
 	float: left;
     }
 }
+.padinator {
+    margin-bottom: .5em;
+}
+.padinator .nav {
+    width: 35%;
+    display: inline-block;
+    margin-top: 0!important;
+}
+.padinator .nav:nth-of-type(2n) {
+    float: right;
+}
+.padinator .nav:only-child {
+    width: 100%;
+}
