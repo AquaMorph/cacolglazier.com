@@ -5,6 +5,7 @@ node {
     }
     stage('Build') {
         sh '''
+	    export PATH="$PATH:/snap/hugo/current/bin"
             hugo
         '''
    }
