@@ -1,0 +1,14 @@
+{{ partial "header.html" . }}
+  <div style='background:url({{.Site.BaseURL}}/img/IMG_9834.jpg) center/cover' class='featured-image blur'></div>
+  <div style='background:url({{.Site.BaseURL}}/img/IMG_9834.jpg) center/cover' class='featured-image noblur'></div>
+  {{ partial "featuretext.html" . }}
+{{ $paginator := .Paginate (where .Data.Pages "Type" "essays") 6 }}
+{{ range $paginator.Pages }}
+  {{ .Render "list-item"}}
+{{ end }}
+
+<div class="padinator">
+  {{ if $paginator.HasPrev }}<a href="{{ $paginator.Prev.URL }}" class="btn btn-info btn-lg btn-block nav"><<</a>{{ end }}
+  {{ if $paginator.HasNext }}<a href="{{ $paginator.Next.URL }}" class="btn btn-info btn-lg btn-block nav">>></a>{{ end }}
+</div>
+{{ partial "footer.html" . }}
