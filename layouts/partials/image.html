@@ -1,5 +1,5 @@
 {{ if isset .Params "image" }}
-  {{ $image := (.Resources.GetMatch (printf "images/%s" (index .Params "image"))) }}
+  {{ $image := (.Resources.GetMatch (printf "images/%s" (index .Params "image"))).Resize "600x q25" }}
   <div style='background:url({{ $image.RelPermalink }}) center/cover' class='featured-image blur'></div>
   <div style='background:url({{ $image.RelPermalink }}) center/cover' class='featured-image noblur'></div>
 {{ end }}
