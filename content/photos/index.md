@@ -1,7 +1,7 @@
 +++
 date = "2015-05-31"
 title = "Photography"
-image = "/img/IMG_9831.jpg"
+image = "IMG_9831.jpg"
 
 +++
 

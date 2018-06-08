@@ -2,7 +2,7 @@
 <a href="{{.Permalink}}">
 <div class="card">
   <div class="view overlay hm-white-slight">
-        <img src="{{.Params.image}}" class="img-fluid" alt="">     
+        <img src="{{ ((.Resources.GetMatch (printf "images/%s" (index .Params "image"))).Resize "1110x q50").RelPermalink }}" class="img-fluid" alt="">     
             <div class="mask"></div>
     </div>
     <div class="card-body">
