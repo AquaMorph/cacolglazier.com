@@ -1,0 +1,33 @@
+---
+title: "FRC Manager"
+date: 2018-06-07T10:36:59-05:00
+image: "phantomthread.jpg"
+draft: false
+---
+
+<link rel="stylesheet" type="text/css" href="/html5-device-mockups-master/dist/device-mockups.min.css">
+
+<div class="device-wrapper">
+  <div class="device" data-device="Pixel" data-orientation="portrait" data-color="white">
+    <div class="screen">
+      <!-- PUT CONTENTS HERE -->
+    </div>
+    <div class="button">
+      <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+    </div>
+  </div>
+</div>
+
+
+FRC Manager provides live competition data from the Blue Alliance based around your team for the FIRST&reg; Robotics Competition (FRC&reg;). Provides competition schedule as well as a team specific schedule.
+
+Features:
+
++ Material Design
++ Offline Mode
++ Themes
++ Team Schedule
++ Event Schedule
++ Event Rankings
++ Event Awards
++ Event Teams

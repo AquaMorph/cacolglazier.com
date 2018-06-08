@@ -1,7 +1,7 @@
 +++
 date = "2015-05-31"
 title = "Contact Me"
-image = "/img/IMG_9848.jpg"
+image = "IMG_9848.jpg"
 +++
 
 
