@@ -1,0 +1,18 @@
+<div class="card-block" style="padding-top: 0">
+  <div class="row">
+    <div class="col-md-8 col-sm-8">
+      <div class="row">
+        <h4 style="margin: 0; padding-left: 15px">{{ .Inner }}</h4>
+      </div>
+      <div class="row" style="margin: 2em">
+        <form action="{{ .Get "link" }}" style="margin: auto">
+          <button type="submit" class="btn btn-info" >{{ .Get "button" }}</button>
+        </form>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-4">
+      {{ $image := (.Page.Resources.GetMatch (printf "**%s" (.Get "img"))).Resize "290x" }}
+      <img src="{{ $image.RelPermalink }}" class="img-fluid rounded-circle float-right" alt="Responsive image" style="margin-left: 2em">
+    </div>
+  </div>
+</div>

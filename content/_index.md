@@ -4,23 +4,9 @@ image = "IMG_9834.jpg"
 date = "2018-06-09"
 +++
 
-            <div class="card-block" style="padding-top: 0">
-            <div class="row">
-                <div class="col-md-8 col-sm-8">
-                    <div class="row">
-                        <h4 style="margin: 0; padding-left: 15px">I'm a Firmware Engineer for Lenovo. I graduated from East Carolina University with a Bachelor of Science in Computer Science. When I have free time, I enjoy spending it reading, developing apps, and making videos. My passion is autodidactically learning new skills and applying those skills to new projects. I'm always working on one of many projects to create new things that spark my interest.</h4>
-                    </div>
-                    <div class="row" style="margin: 2em">
-                        <form action="resume.pdf" style="margin: auto">
-                            <button type="submit" class="btn btn-info" >My R&eacute;sum&eacute;</button>
-                        </form>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-4">
-                    <img src="/img/profile.jpg" class="img-fluid rounded-circle float-right" alt="Responsive image" style="margin-left: 2em">
-                </div>
-            </div>
-            </div>
+{{< bio link="resume/pdf" img="profile.jpg" button="My Resume">}}
+I'm a Firmware Engineer for Lenovo. I graduated from East Carolina University with a Bachelor of Science in Computer Science. When I have free time, I enjoy spending it reading, developing apps, and making videos. My passion is autodidactically learning new skills and applying those skills to new projects. I'm always working on one of many projects to create new things that spark my interest.
+{{</ bio >}}
 
 <div class="card" style="margin-bottom: 2em; margin-top: 2em">
             <div class="card-body">
