@@ -4,7 +4,7 @@ image = "IMG_9834.jpg"
 date = "2018-06-09"
 +++
 
-{{< bio link="resume/pdf" img="profile.jpg" button="My Resume">}}
+{{< bio link="resume.pdf" img="profile.jpg" button="My Resume">}}
 I'm a Firmware Engineer for Lenovo. I graduated from East Carolina University with a Bachelor of Science in Computer Science. When I have free time, I enjoy spending it reading, developing apps, and making videos. My passion is autodidactically learning new skills and applying those skills to new projects. I'm always working on one of many projects to create new things that spark my interest.
 {{</ bio >}}
 
