@@ -9,4 +9,4 @@
   {{ if $paginator.HasPrev }}<a href="{{ $paginator.Prev.URL }}" class="btn btn-info btn-lg btn-block nav"><<</a>{{ end }}
   {{ if $paginator.HasNext }}<a href="{{ $paginator.Next.URL }}" class="btn btn-info btn-lg btn-block nav">>></a>{{ end }}
 </div>
-{{ partial "footer.html" . }}
+{{ partialCached  "footer.html" . }}

@@ -18,7 +18,7 @@
             <a class="navbar-brand" href="{{.Site.BaseURL}}">
                 <strong>Christian Colglazier</strong>
             </a>
-            {{ partial "menu.html" . }}
+            {{ partialCached  "menu.html" . }}
         </div>
     </nav>
     <div class='feature-container'>
