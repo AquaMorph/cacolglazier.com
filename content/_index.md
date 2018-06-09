@@ -8,9 +8,7 @@ date = "2018-06-09"
 I'm a Firmware Engineer for Lenovo. I graduated from East Carolina University with a Bachelor of Science in Computer Science. When I have free time, I enjoy spending it reading, developing apps, and making videos. My passion is autodidactically learning new skills and applying those skills to new projects. I'm always working on one of many projects to create new things that spark my interest.
 {{</ bio >}}
 
-<div class="card" style="margin-bottom: 2em; margin-top: 2em">
-            <div class="card-body">
-            <h1 class="h1-responsive">Skills</h1>
+{{< card title="Skills" >}}     
             <div class="row">
                 <div class="col-md-8 col-sm-8">
                     <h2 class="h2-responsive">Programming Languages</h2>
@@ -71,12 +69,9 @@ I'm a Firmware Engineer for Lenovo. I graduated from East Carolina University wi
                     </ul>
                 </div>
             </div>
-            </div>
-            </div>
+{{</ card >}}
 
-<div class="card" style="margin-bottom: 2em">
-            <div class="card-body">
-            <h1 class="h1-responsive">Awards & Organizations</h1>
+{{< card title="Awards & Organizations" >}}  
             <table class="table">
                 <thead>
                     <tr>
@@ -118,5 +113,4 @@ I'm a Firmware Engineer for Lenovo. I graduated from East Carolina University wi
                     </tr>
                 </tbody>
             </table>
-            </div>
-            </div>
+{{</ card >}}
