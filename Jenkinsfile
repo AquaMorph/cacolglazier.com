@@ -4,10 +4,7 @@ node {
         git branch: 'master', credentialsId: 'a14847e5-f1a5-48d1-8833-9709f75f8471', url: 'git@github.com:AquaMorph/cacolglazier.com.git'
     }
     stage('Build') {
-        sh '''
-	    export PATH="$PATH:/snap/hugo/current/bin"
-            hugo
-        '''
+        sh 'hugo'
    }
     stage('Deploy') {
         withCredentials([usernamePassword(credentialsId: 'cacolglazier_ftp', passwordVariable: 'PASSWD', usernameVariable: 'USER')]) {
