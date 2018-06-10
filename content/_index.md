@@ -8,40 +8,42 @@ date = "2018-06-09"
 I'm a Firmware Engineer for Lenovo. I graduated from East Carolina University with a Bachelor of Science in Computer Science. When I have free time, I enjoy spending it reading, developing apps, and making videos. My passion is autodidactically learning new skills and applying those skills to new projects. I'm always working on one of many projects to create new things that spark my interest.
 {{</ bio >}}
 
+
+
 {{< card title="Skills" >}}     
-            <div class="row">
-                <div class="col-md-8 col-sm-8">
-                    <h2 class="h2-responsive">Programming Languages</h2>
-                    <ul style="column-count: 3">
-                        <li>Java</li>
-                        <li>C</li>
-                        <li>C++</li>
-                        <li>Python</li>
-                        <li>LabVIEW</li>
-                        <li>MySQL</li>
-                        <li>Node.js</li>
-                        <li>JavaScript</li>
-                        <li>PHP</li>
-                        <li>Lisp</li>
-                        <li>Assembly</li>
-                        <li>Scheme</li>
-                        <li>Prolog</li>
-                        <li>Go</li>
-                        <li>Cinnameg</li>
-                    </ul>
-                </div>
-                <div class="col-md-4 col-sm-4">
-                    <h2 class="h2-responsive">Markup Languages</h2>
-                    <ul style="column-count: 2">
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>XML</li>
-                        <li>Latex</li>
-                        <li>Markdown</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row">
+  {{< row >}}
+    <div class="col-md-8 col-sm-8">
+      <h2 class="h2-responsive">Programming Languages</h2>
+{{% column-list columns="3" %}}
+ * Java
+ * C
+ * C++
+ * Python
+ * LabVIEW
+ * MySQL
+ * Node.js
+ * JavaScript
+ * PHP
+ * Lisp
+ * Assembly
+ * Scheme
+ * Prolog
+ * Go
+ * Cinnameg
+{{%/ column-list %}}
+    </div>
+    <div class="col-md-4 col-sm-4">
+      <h2 class="h2-responsive">Markup Languages</h2>
+      <ul style="column-count: 2">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>XML</li>
+        <li>Latex</li>
+        <li>Markdown</li>
+      </ul>
+    </div>
+  {{</ row >}}
+  {{< row >}}
                 <div class="col-md-8 col-sm-8">
                     <h2 class="h2-responsive">Tools</h2>
                     <ul style="column-count: 3">
@@ -68,7 +70,7 @@ I'm a Firmware Engineer for Lenovo. I graduated from East Carolina University wi
                         <li>Photograhy</li>
                     </ul>
                 </div>
-            </div>
+  {{</ row >}}
 {{</ card >}}
 
 {{< card title="Awards & Organizations" >}}  
