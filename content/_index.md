@@ -8,13 +8,10 @@ date = "2018-06-09"
 I'm a Firmware Engineer for Lenovo. I graduated from East Carolina University with a Bachelor of Science in Computer Science. When I have free time, I enjoy spending it reading, developing apps, and making videos. My passion is autodidactically learning new skills and applying those skills to new projects. I'm always working on one of many projects to create new things that spark my interest.
 {{</ bio >}}
 
-
-
 {{< card title="Skills" >}}     
   {{< row >}}
-    <div class="col-md-8 col-sm-8">
-      <h2 class="h2-responsive">Programming Languages</h2>
-{{% column-list columns="3" %}}
+    {{< column md="8" sm="8" title="Programming Languages" >}}
+      {{% column-list columns="3" %}}
  * Java
  * C
  * C++
@@ -30,46 +27,43 @@ I'm a Firmware Engineer for Lenovo. I graduated from East Carolina University wi
  * Prolog
  * Go
  * Cinnameg
-{{%/ column-list %}}
-    </div>
-    <div class="col-md-4 col-sm-4">
-      <h2 class="h2-responsive">Markup Languages</h2>
-      <ul style="column-count: 2">
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>XML</li>
-        <li>Latex</li>
-        <li>Markdown</li>
-      </ul>
-    </div>
+      {{%/ column-list %}}
+    {{</ column >}}
+    {{< column md="4" sm="4" title="Markup Languages" >}}
+      {{% column-list columns="2" %}}
+ * HTML
+ * CSS
+ * XML
+ * Latex
+ * Markdown
+      {{%/ column-list %}}
+    {{</ column >}}
   {{</ row >}}
   {{< row >}}
-                <div class="col-md-8 col-sm-8">
-                    <h2 class="h2-responsive">Tools</h2>
-                    <ul style="column-count: 3">
-                        <li>Git</li>
-                        <li>Linux</li>
-                        <li>GitHub</li>
-                        <li>Jenkins</li>
-                        <li>Android Studio</li>
-                        <li>Intellij IDEA</li>
-                        <li>Eclipse</li>
-                        <li>Vim</li>
-                        <li>SVN</li>
-                        <li>Travis CI</li>
-                        <li>JIRA</li>
-                        <li>Lisp</li>
-                        <li>Jacoco</li>
-                    </ul>
-                </div>
-                <div class="col-md-4 col-sm-4">
-                    <h2 class="h2-responsive">Miscellaneous</h2>
-                    <ul style="column-count: 2">
-                        <li>Robotics</li>
-                        <li>Videoography</li>
-                        <li>Photograhy</li>
-                    </ul>
-                </div>
+    {{< column md="8" sm="8" title="Tools" >}}
+      {{% column-list columns="3" %}}
+ * Git
+ * Linux
+ * GitHub
+ * Jenkins
+ * Android Studio
+ * Intellij IDEA
+ * Eclipse
+ * Emacs
+ * Vim
+ * SVN
+ * Travis CI
+ * JIRA
+ * Jacoco
+      {{%/ column-list %}}
+    {{</ column >}}
+    {{< column md="4" sm="4" title="Miscellaneous" >}}
+      {{% column-list columns="2" %}}
+ * Robotics
+ * Videoography
+ * Photograhy
+      {{%/ column-list %}}
+    {{</ column >}}
   {{</ row >}}
 {{</ card >}}
 
