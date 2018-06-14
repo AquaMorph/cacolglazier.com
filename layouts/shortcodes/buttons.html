@@ -1,0 +1,17 @@
+<div class="card" style="margin-bottom: 2em; margin-top: 2em">
+  <div class="card-body">
+    <div class="button-list">
+      <h1 class="h1-responsive">{{ .Get "title" }}</h1>
+      {{ if .Get "play" }}
+        <a class="btn btn-info" href="{{ .Get "play" }}"><i class="fa fa-play mr-2"></i>Play Store</a>
+      {{ end }}
+      {{ if .Get "releases" }}
+      <a class="btn btn-info" href="{{ .Get "releases" }}"><i class="fa fa-github mr-2"></i>Releases</a>
+      {{ end }}
+      {{ if .Get "github" }}	
+      <a class="btn btn-info" href="{{ .Get "github" }}"><i class="fa fa-github mr-2"></i>Source Code</a>
+      {{ end }}
+    </div>
+  </div>
+</div>
+
