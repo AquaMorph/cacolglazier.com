@@ -14,8 +14,8 @@ Features:
 + Themes
 + Team Schedule
 + Event Schedule
-+ Event Rankings
-+ Event Awards
-+ Event Teams
++ Rankings
++ Awards
++ Team List
 
 {{< buttons title="Links" play="https://play.google.com/store/apps/details?id=com.aquamorph.frcmanager" github="https://github.com/AquaMorph/FRC-Manager" releases="https://github.com/AquaMorph/FRC-Manager/releases" >}}
