@@ -19,9 +19,10 @@ body {
     bottom:0;
     left:0;
 }
-p {
+p, li {
     font-size: 1.3em;
 }
+
 .card .card-title {
     font-size: 2.5em;
     color: #03A9F4;
@@ -40,6 +41,27 @@ p {
 .button-list .btn .fa {
     font-size: 2.0rem;
     margin-top: -5;
+}
+
+/* Phone Mockups */
+.phone-mock {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.phone {
+    position: relative;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    height: auto;
+}
+.screenshot {
+    position: absolute;
+    top: 11.5%;
+    left: 9.5%;
+    max-width: 80%;
+    height: auto;
 }
 
 /* Feature Image */
