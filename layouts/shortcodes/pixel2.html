@@ -9,7 +9,7 @@
       <img class="screenshot" src="{{ (.Page.Resources.GetMatch (printf "**%s.webm" (.Get "img"))).RelPermalink }}" alt="Screenshot">
       {{ end }}
       {{ if .Get "video" }}
-       <video autoplay loop muted class="screenshot">
+       <video autoplay loop muted playsinline class="screenshot">
 	 <source src="{{ (.Page.Resources.GetMatch (printf "**%s.webm" (.Get "video"))).RelPermalink }}" type="video/webm">
 	 <source src="{{ (.Page.Resources.GetMatch (printf "**%s.mp4" (.Get "video"))).RelPermalink }}" type="video/mp4">
 	     Your browser does not support the video tag and therefore sucks
