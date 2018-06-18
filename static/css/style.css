@@ -46,6 +46,9 @@ p, li {
 /* Phone Mockups */
 .phone-mock {
     position: relative;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
     top: 0;
     left: 0;
 }
