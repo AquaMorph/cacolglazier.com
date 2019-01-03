@@ -7,6 +7,8 @@ draft: false
 
 In 2018 I averaged listening to 55 songs a day for a grand total of 20,223 which is up from my last year total of 20,107. My music tastes shifted with me listening to a lot more country and metal music than in past years. Although those were not new genres for me but rather took over my synthwave obsession.
 
+<!--more-->
+
 # Most Listened to Albums
 
 {{< hbarchart id="albums" data="713,465,421,374,297,295,292,287,257,239" >}}
