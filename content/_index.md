@@ -10,7 +10,7 @@ I'm a Firmware Engineer for Lenovo. I graduated from East Carolina University wi
 
 {{< card title="Skills" >}}     
   {{< row >}}
-    {{< column md="8" sm="8" title="Programming Languages" >}}
+    {{< column md="7" sm="12" title="Programming Languages" >}}
       {{% column-list columns="3" %}}
  * Java
  * C
@@ -29,7 +29,7 @@ I'm a Firmware Engineer for Lenovo. I graduated from East Carolina University wi
  * Cinnameg
       {{%/ column-list %}}
     {{</ column >}}
-    {{< column md="4" sm="4" title="Markup Languages" >}}
+    {{< column md="5" sm="8" title="Markup Languages" >}}
       {{% column-list columns="2" %}}
  * HTML
  * CSS
@@ -40,7 +40,7 @@ I'm a Firmware Engineer for Lenovo. I graduated from East Carolina University wi
     {{</ column >}}
   {{</ row >}}
   {{< row >}}
-    {{< column md="8" sm="8" title="Tools" >}}
+    {{< column md="7" sm="13" title="Tools" >}}
       {{% column-list columns="3" %}}
  * Git
  * Linux
@@ -57,7 +57,7 @@ I'm a Firmware Engineer for Lenovo. I graduated from East Carolina University wi
  * Jacoco
       {{%/ column-list %}}
     {{</ column >}}
-    {{< column md="4" sm="4" title="Miscellaneous" >}}
+    {{< column md="5" sm="8" title="Miscellaneous" >}}
       {{% column-list columns="2" %}}
  * Robotics
  * Videoography

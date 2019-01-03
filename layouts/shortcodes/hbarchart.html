@@ -1,0 +1,35 @@
+<canvas id="{{ .Get "id" }}"></canvas>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.0/Chart.min.js"></script>
+<script>
+    var canvas = document.getElementById("{{ .Get "id" }}")
+    var ctx = canvas.getContext("2d");
+
+    Chart.defaults.global.responsive = true;
+    Chart.defaults.global.maintainAspectRatio = false;
+
+    var chart = new Chart(ctx, {
+	type: 'horizontalBar',
+	data: {
+            labels: [{{ .Inner | safeJS }}],
+            datasets: [{
+		data: [{{  (.Get "data") | safeJS }}],
+		backgroundColor: 'rgba(3, 169, 244, 0.2)',
+		borderColor: 'rgba(3, 169, 244, 1)',
+		borderWidth: 1
+            }]
+	},
+	options: {
+	    legend: {
+		display: false
+	    },
+	    responsive: true,
+            scales: {
+		xAxes: [{
+                    ticks: {
+			beginAtZero:true
+                    }
+		}]
+            }
+	}
+    });
+</script>

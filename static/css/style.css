@@ -21,6 +21,7 @@ body {
 }
 p, li {
     font-size: 1.3em;
+    line-height: 1.15;
 }
 
 .card .card-title {
@@ -29,6 +30,10 @@ p, li {
 }
 .card .card-text {
     font-size: 1.1em;
+}
+
+.card, .card .card-body h3, .card .card-body h4, .card .card-text {
+    font-weight: 0;
 }
 
 .button-list .btn {
@@ -85,7 +90,7 @@ p, li {
     -ms-filter: blur(.05em);
     filter: blur(.05em);
     z-index: -3;
-		opacity: 0.7;
+    opacity: 0.7;
     filter: alpha(opacity=70);
 }
 .feature-container {
@@ -126,7 +131,7 @@ p, li {
     text-align: center;
     z-index: 10;
     color: #fff;
-    text-shadow: 0 0 .2em #263238;
+    text-shadow: 0 .06em .09em #263238;
     font-size: 3em;
 }
 
@@ -174,7 +179,6 @@ p, li {
     }
     .featured:nth-of-type(3n+2) {
 	padding-right: 0.5em;
-	float: left;
     }
 }
 .padinator {
@@ -190,4 +194,16 @@ p, li {
 }
 .padinator .nav:only-child {
     width: 100%;
+}
+
+canvas {
+    width: 100% !important;
+    max-width: 960px;
+    max-height: 400px;
+    min-height: 300px;
+    height: auto !important;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
