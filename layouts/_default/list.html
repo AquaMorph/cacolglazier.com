@@ -1,6 +1,6 @@
 {{ partial "header.html" . }}
 {{ partial "featuretext.html" . }}
-{{ $paginator := .Paginate (or (where .Data.Pages "Type"  "projects") (where .Data.Pages "Type"  "essays")) 6 }}
+{{ $paginator := .Paginate (or (where .Data.Pages "Type"  "projects") (where .Data.Pages "Type"  "essays") (where .Data.Pages "Type"  "photos")) 6 }}
 {{ range $paginator.Pages }}
   {{ .Render "list-item"}}
  {{ end }}
