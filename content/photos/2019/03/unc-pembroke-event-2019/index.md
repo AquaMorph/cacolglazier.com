@@ -7,5 +7,4 @@ draft: false
 
 <p> </p> 
 <!--more-->
-{{< gallery dir="/" caption-position="none" />}}
-{{< load-photoswipe >}}
+{{< foldergallery src="images" >}}
