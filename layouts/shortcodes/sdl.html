@@ -1,0 +1,25 @@
+<script type="text/javascript" src="/js/three.min.js"></script>
+<script type="text/javascript" src="/js/jsmodeler.js"></script>
+<script type="text/javascript" src="/js/jsmodeler.ext.three.js"></script>
+<script type="text/javascript" src="/js/online3dembedder.js"></script>
+<script type="text/javascript">
+function OnResize () {
+var canvas = document.getElementById('fullscreen');
+var content = document.getElementById('content');
+canvas.width = content.clientWidth-30;
+}
+function OnLoad () {
+OnResize ();
+LoadOnline3DModels ();
+}
+window.addEventListener ('load', OnLoad, true);
+window.addEventListener ('resize', OnResize, true);
+</script>
+<div class="card" style="margin-bottom: 2em; margin-top: 2em">
+  <div class="card-body">
+    <h1 class="h1-responsive" style="position: absolute">{{ .Get "title" }}</h1>
+    <canvas class="3dviewer" id="fullscreen" sourcefiles="{{ .Get "file" }}" height="400px"></canvas>
+    <a class="btn btn-info" href="{{ .Get "file" }}"><i class="fa fa-download mr-2"></i>Download</a>
+  </div>
+</div>
+
