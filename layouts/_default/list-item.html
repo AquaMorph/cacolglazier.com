@@ -1,16 +1,16 @@
 <div class="featured">
-<a href="{{.Permalink}}">
-<div class="card">
-  <div class="view overlay hm-white-slight">
-        <img src="{{ ((.Resources.GetMatch (printf "images/%s" (index .Params "image"))).Resize "930x q50").RelPermalink }}" class="img-fluid" alt="">     
-            <div class="mask"></div>
-    </div>
-    <div class="card-body">
+  <a href="{{.Permalink}}">
+    <div class="card">
+      <div class="view overlay hm-white-slight">
+        <div class="img-fluid-box">
+          <img src="{{ ((.Resources.GetMatch (printf "images/%s" (index .Params "image"))).Fit "1500x750 q50").RelPermalink }}" class="img-fluid" alt="{{ .Title}}">
+	</div>     
+        <div class="mask"></div>
+      </div>
+      <div class="card-body">
         <h4 class="card-title">{{ .Title}}</h4>
-        <p class="card-text">{{ .Summary }}</p>
+      </div>
     </div>
+  </a>
 </div>
-</a>
-</div>
-
                 
