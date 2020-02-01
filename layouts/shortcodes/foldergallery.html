@@ -9,8 +9,12 @@
       margin: 2px;
       display: flex;
   }
-  div.gallery a img {            
+  div.gallery a img {
+      {{ if eq (.Get "size") "" }}
       height: 100px;
+      {{ else }}
+      height: {{.Get "size"}}px;
+      {{ end }}
       object-fit: cover;
       flex-grow: 1;
   }
