@@ -8,65 +8,6 @@ date = "2018-06-09"
 I'm a Firmware Engineer for Lenovo. I graduated from East Carolina University with a Bachelor of Science in Computer Science. When I have free time, I enjoy spending it reading, developing apps, and making videos. My passion is autodidactically learning new skills and applying those skills to new projects. I'm always working on one of many projects to create new things that spark my interest.
 {{</ bio >}}
 
-{{< card title="Skills" >}}     
-  {{< row >}}
-    {{< column md="7" sm="12" title="Programming Languages" >}}
-      {{% column-list columns="3" %}}
- * Java
- * C
- * C++
- * Python
- * LabVIEW
- * MySQL
- * Node.js
- * JavaScript
- * PHP
- * Lisp
- * Assembly
- * Scheme
- * Prolog
- * Go
- * Cinnameg
-      {{%/ column-list %}}
-    {{</ column >}}
-    {{< column md="5" sm="8" title="Markup Languages" >}}
-      {{% column-list columns="2" %}}
- * HTML
- * CSS
- * XML
- * Latex
- * Markdown
-      {{%/ column-list %}}
-    {{</ column >}}
-  {{</ row >}}
-  {{< row >}}
-    {{< column md="7" sm="13" title="Tools" >}}
-      {{% column-list columns="3" %}}
- * Git
- * Linux
- * GitHub
- * Jenkins
- * Android Studio
- * Intellij IDEA
- * Eclipse
- * Emacs
- * Vim
- * SVN
- * Travis CI
- * JIRA
- * Jacoco
-      {{%/ column-list %}}
-    {{</ column >}}
-    {{< column md="5" sm="8" title="Miscellaneous" >}}
-      {{% column-list columns="2" %}}
- * Robotics
- * Videoography
- * Photograhy
-      {{%/ column-list %}}
-    {{</ column >}}
-  {{</ row >}}
-{{</ card >}}
-
 {{< card title="Awards & Organizations" >}}  
             <table class="table">
                 <thead>
@@ -98,7 +39,7 @@ I'm a Firmware Engineer for Lenovo. I graduated from East Carolina University wi
                         <td>Lead Programmer for FIRST Robotics Competition team</td>
                     </tr>
                     <tr>
-                        <th scope="row">2014-Present</th>
+                        <th scope="row">2014-2019</th>
                         <td>Local</td>
                         <td>Programming Mentor for FIRST Robotics Competition</td>
                     </tr>
