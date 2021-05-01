@@ -11,6 +11,12 @@
       {{ if .Get "github" }}	
       <a class="btn btn-info" href="{{ .Get "github" }}"><i class="fa fa-github mr-2"></i>Source Code</a>
       {{ end }}
+      {{ if .Get "sdl" }}	
+      <a class="btn btn-info" href="{{ .Get "sdl" }}"><i class="fa fa-download mr-2"></i>SDL</a>
+      {{ end }}
+      {{ if .Get "cad" }}	
+      <a class="btn btn-info" href="{{ .Get "cad" }}"><i class="fa fa-download mr-2"></i>CAD</a>
+      {{ end }}
     </div>
   </div>
 </div>
