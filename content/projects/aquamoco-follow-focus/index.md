@@ -34,7 +34,7 @@ draft: false
 | Filament material: | PLA |
 {{</ table >}}
 
-![AquaMOCO Follow Focus CAD class=img-fluid](images/Follow_Focus_4.1_2021-May-01_01-20-47PM-000_CustomizedView5211380447.jpg)
+![AquaMOCO Follow Focus CAD](images/Follow_Focus_4.1_2021-May-01_01-20-47PM-000_CustomizedView5211380447.jpg)
 
 # Assembly Instructions
 
