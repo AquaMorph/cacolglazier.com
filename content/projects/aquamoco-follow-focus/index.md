@@ -1,5 +1,6 @@
 ---
 title: "AquaMOCO Follow Focus"
+description: "An open hardware and affordable MOCO follow focus."
 date: 2021-05-01
 image: "Follow_Focus_4.1_2021-May-01_01-20-47PM-000_CustomizedView5211380447.jpg"
 draft: false

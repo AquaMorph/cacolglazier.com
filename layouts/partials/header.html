@@ -8,6 +8,9 @@
     {{ $image := (.Resources.GetMatch (printf "**%s" (index .Params "image"))).Resize "300x q50" }}
     <meta property="og:image" content="{{ $image.RelPermalink }}" />
     {{ end }}
+    {{ if isset .Params "description" }}
+    <meta property="og:description" content="{{ index .Params "description"}}"/>
+    {{ end }}
     <link rel="shortcut icon" href="/img/favicon.png" />
     <script src="/js/chart.min.js"></script>
     <title>{{ .Title }}</title>
