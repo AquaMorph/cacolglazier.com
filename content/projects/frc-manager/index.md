@@ -6,7 +6,7 @@ draft: false
 ---
 
 {{< pixel2 video="demo" >}}
-FRC Manager provides live competition data from the Blue Alliance based around a single team competing in the FIRST&reg; Robotics Competition (FRC&reg;). This Android app focuses on providing only the data that someone competing would like to see at a glance. Upon opening the app the team schedule, record, and rank are immediately accessible. Other relevant information to the event match schedule, rankings, teams and awards are all just a swipe away.
+FRC Manager provides live competition data from the Blue Alliance based around a single team competing in the FIRST Robotics Competition (FRC). This Android app focuses on providing only the data that someone competing would like to see at a glance. Upon opening the app the team schedule, record, and rank are immediately accessible. Other relevant information to the event match schedule, rankings, teams and awards are all just a swipe away.
 
 Features:
 
