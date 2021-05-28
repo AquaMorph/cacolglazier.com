@@ -26,8 +26,14 @@ draft: false
 | M3 6mm Pan Head Screw | [Amazon](https://smile.amazon.com/Yootop-Stainless-Phillips-Machine-Fastener/dp/B07HD1DMBP/) | 4 | - | $8.99 |
 | M5 30mm Hex Socket Head Cap Machine Screws | [Amazon](https://smile.amazon.com/DYWISHKEY-Pieces-Stainless-Steel-Socket/dp/B07X3RX915/) | 4 | - | $9.99 |
 | M5 Nylon Nut | [Amazon](https://smile.amazon.com/gp/product/B071GF2Z67/) | 4 | -  | $13.62 |
+| **Optional** | | | | |
+| 316 Stainless Steel Hex Head Screw 3/8"-16 Thread Size, 1/2" Long* | [McMaster-Carr](https://www.mcmaster.com/93190A619/) | 1 | - | $3.92|
+| or | | | | |
+| 3/8" Tripod Screw* | [Amazon](https://smile.amazon.com/SMALLRIG-Camera-Accessories-Handles-Plates/dp/B0854HFVVL/) | 1 | - | $12.99 | 
 | **Total** | | | | **$161.17** |
 {{</ table >}}
+
+\* Either of the optional parts might be needed as a way to attach your preferred tripod head to the slider. Some already have these parts with the head. 
 
 {{< buttons title="Files" cad="files/AquaMOCO-Slider-1-0-0.f3z" sdl="files/AquaMOCO-Slider-1-0-0.zip">}}
 
@@ -64,8 +70,9 @@ draft: false
 1. Take the carriage part and four M5 30mm bolts and place the four bolts through the top of the carriage.
 2. Take four 2020 Pulley wheels and place them on the bottom of the carriage attached to the newly placed bolts.
 3. Take four M5 nylon nuts and attach to the end of the bolts and tighten until snug. Be sure not to over tighten.
-4. Place the entire assembly so the carriage is on top of the 2040 bar and the wheels are in the upper groove of the 2040 bar.
-5. Make sure the carriage can move along the 2040 bar freely.
+4. Attach your tripod head or system of choice to the top of the carriage. Might require one of the option parts in the part list.
+5. Place the entire assembly so the carriage is on top of the 2040 bar and the wheels are in the upper groove of the 2040 bar.
+6. Make sure the carriage can move along the 2040 bar freely.
 
 ## Spinner
 
