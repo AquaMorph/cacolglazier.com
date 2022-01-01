@@ -5,7 +5,7 @@ image: "shawn-rudiman.jpg"
 draft: false
 ---
 
-In 2021 I averaged listening to 44 songs a day for a grand total of 16,085 which is down from my last year total of 21,161. I spent even more time this year listening to podcasts and audiobooks over music.
+In 2021 I averaged listening to 44 songs a day for a grand total of 16,085 which is down from my last year total of 19,681. I spent even more time this year listening to podcasts and audiobooks over music.
 <!--more-->
 
 # Most Listened to Albums
