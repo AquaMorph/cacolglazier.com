@@ -22,8 +22,8 @@
 
 <link rel="stylesheet" href="/css/jquery.fancybox.min.css" />
 <div class="gallery">
-  {{ $base := replace (print (.Page.Dir) (.Get "src")) "\\" "/" }}
-  {{ $path := print "content/" (.Page.Dir) (.Get "src") }}
+  {{ $base := replace (print (.Page.File.Dir) (.Get "src")) "\\" "/" }}
+  {{ $path := print "content/" (.Page.File.Dir) (.Get "src") }}
   {{ range (readDir $path) }}
   {{- $thumbext := "-thumb" }}
     {{- $isthumb := .Name | findRE ($thumbext | printf "%s\\.") }}<!-- is the current file a thumbnail image? -->
