@@ -38,7 +38,7 @@ In 2021 I averaged listening to 44 songs a day for a grand total of 16,085 which
 "Grimes",
 {{</hbarchart>}}
 
-# Favorite Albums of 2020
+# Favorite Albums of 2021
 
 ## 10. Faith in Persona 
 
