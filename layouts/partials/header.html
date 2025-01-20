@@ -4,6 +4,7 @@
     <meta name="keywords" content="Christian Colglazier, Colglazier, Android, wake county, north carolina, cary, apex, raleigh" />
     <meta name="description" content="Christian Colglazier" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
     {{ if isset .Params "image" }}
     {{ $image := (.Resources.GetMatch (printf "**%s" (index .Params "image"))).Resize "300x q50" }}
     <meta property="og:image" content="{{ $image.RelPermalink }}" />
