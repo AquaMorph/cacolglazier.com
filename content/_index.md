@@ -8,6 +8,41 @@ date = "2018-06-09"
 I'm a Firmware Engineer for Lenovo. I graduated from East Carolina University with a Bachelor of Science in Computer Science. When I have free time, I enjoy spending it reading, developing apps, and making videos. My passion is autodidactically learning new skills and applying those skills to new projects. I'm always working on one of many projects to create new things that spark my interest.
 {{</ bio >}}
 
+{{< card title="Open Source Contributions" >}}
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Year</th>
+                        <th>Project</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">2022</th>
+                        <td>Linux</td>
+                        <td><a href='https://lore.kernel.org/all/20220809043241.GA2749152@m.b4.vu/'>Support for Clarett+ 8Pre</a></td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <th scope="row">2024</th>
+                        <td>Zigbee2Mqtt</td>
+                        <td><a href='https://github.com/Koenkk/zigbee-herdsman-converters/commit/b65b3e405c72d7ec8d4675b1ea6ad291b71de4ef'>Added support for Innr AE 270 T</a></td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <th scope="row">2024</th>
+                        <td>Zigbee2Mqtt</td>
+                        <td><a href='https://github.com/Koenkk/zigbee-herdsman-converters/commit/c7fde7c1850199192f032d376b7645a50fd8d8ff'>Added OTA and power on behavior support for Innr AE 270 T</a></td>
+                    </tr>
+                </tbody>
+
+            </table>
+{{</ card >}}
+
+
 {{< card title="Awards & Organizations" >}}  
             <table class="table">
                 <thead>
