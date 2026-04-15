@@ -38,7 +38,7 @@ In 2025 I averaged listening to 37 songs a day for a grand total of 13,784 which
 "Sufjan Stevens"
 {{</hbarchart>}}
 
-# Favorite Albums of 2024
+# Favorite Albums of 2025
 
 ## 10. Stardust 
 
