@@ -1,12 +1,56 @@
 {{ partial "header.html" . }}
 {{ partial "featuretext.html" . }}
-{{ $paginator := .Paginate (or (where .Data.Pages "Type"  "projects") (where .Data.Pages "Type"  "essays") (where .Data.Pages "Type"  "photos")) 6 }}
-{{ range $paginator.Pages }}
-  {{ .Render "list-item"}}
- {{ end }}
+{{ if eq .Section "projects" }}
+  {{ $projects := where .Pages "Type" "projects" }}
+  {{ $categories := slice }}
+  {{ range $projects }}
+    {{ range .Params.categories }}
+      {{ if not (in $categories .) }}
+        {{ $categories = $categories | append . }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
 
-<div class="padinator">
-  {{ if $paginator.HasPrev }}<a href="{{ $paginator.Prev.URL }}" class="btn btn-info btn-lg btn-block nav"><<</a>{{ end }}
-  {{ if $paginator.HasNext }}<a href="{{ $paginator.Next.URL }}" class="btn btn-info btn-lg btn-block nav">>></a>{{ end }}
-</div>
+  <div class="project-filters button-list" aria-label="Filter projects by category">
+    <button class="btn btn-pink project-filter active" type="button" data-category="all" aria-pressed="true">All</button>
+    {{ range sort $categories }}
+      <button class="btn btn-pink project-filter" type="button" data-category="{{ . | urlize }}" aria-pressed="false">{{ . }}</button>
+    {{ end }}
+  </div>
+
+  <div class="project-list">
+    {{ range $projects }}
+      {{ .Render "list-item" }}
+    {{ end }}
+  </div>
+
+  <script>
+    document.querySelectorAll('.project-filter').forEach(function (button) {
+      button.addEventListener('click', function () {
+        var category = button.dataset.category;
+
+        document.querySelectorAll('.project-filter').forEach(function (filter) {
+          var selected = filter === button;
+          filter.classList.toggle('active', selected);
+          filter.setAttribute('aria-pressed', selected);
+        });
+
+        document.querySelectorAll('.project-list .featured').forEach(function (project) {
+          var categories = (project.dataset.categories || '').split(' ');
+          project.hidden = category !== 'all' && !categories.includes(category);
+        });
+      });
+    });
+  </script>
+{{ else }}
+  {{ $paginator := .Paginate (or (where .Data.Pages "Type" "essays") (where .Data.Pages "Type" "photos")) 6 }}
+  {{ range $paginator.Pages }}
+    {{ .Render "list-item" }}
+  {{ end }}
+
+  <div class="padinator">
+    {{ if $paginator.HasPrev }}<a href="{{ $paginator.Prev.URL }}" class="btn btn-info btn-lg btn-block nav"><<</a>{{ end }}
+    {{ if $paginator.HasNext }}<a href="{{ $paginator.Next.URL }}" class="btn btn-info btn-lg btn-block nav">>></a>{{ end }}
+  </div>
+{{ end }}
 {{ partialCached  "footer.html" . }}

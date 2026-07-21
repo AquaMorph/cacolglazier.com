@@ -2,6 +2,7 @@
 title: "FRC Manager"
 date: 2018-06-07T10:36:59-05:00
 image: "frc-manager.png"
+categories: ["Apps"]
 draft: false
 ---
 

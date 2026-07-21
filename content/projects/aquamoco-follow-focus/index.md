@@ -3,6 +3,7 @@ title: "AquaMOCO Follow Focus"
 description: "An open hardware and affordable MOCO follow focus."
 date: 2021-05-01
 image: "Follow_Focus_4.1_2021-May-01_01-20-47PM-000_CustomizedView5211380447.jpg"
+categories: ["3D Printing"]
 draft: false
 ---
 
@@ -47,4 +48,3 @@ draft: false
 6. Use the M3 8mm screw to attach the base to the lid near the hole for the camera rail.
 7. If one has a M5, tap use it to tap the hole at the bottom of the assembly.
 8. Screw in the M5 8mm screw into the whole at the bottom of the assembly.
-

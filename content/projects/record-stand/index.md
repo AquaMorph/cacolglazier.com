@@ -2,6 +2,7 @@
 title: "Record Display Stand"
 date: 2019-12-17
 image: "IMG_20191217_145207.jpg"
+categories: ["3D Printing"]
 draft: false
 ---
 

@@ -3,6 +3,7 @@ title: "AquaMOCO Slider"
 description: "An open hardware and affordable MOCO Slider."
 date: 2021-05-28
 image: "Slider_2021-May-02_06-02-41PM-000_CustomizedView4543425150.png"
+categories: ["3D Printing"]
 draft: false
 ---
 
@@ -95,4 +96,3 @@ draft: false
 3. Thread the belt through the stepper motor pulley, the center of the 2040 bar, and the spinner pulley.
 4. Repeat step 1 with the hole at the other end of the carriage tightening the belt as much as reasonably possible. Step 5 will take care of tensioning the belt.
 5. Loosen the screws keeping the spinner assembly attached to the 2040 bar. Pull the spinner assembly away from the 2040 bar until the belt is taut and tighten the screws.
-

@@ -3,6 +3,7 @@ title: "3U to 1U Adapter for Intellijel"
 description: "A 3D printable bracket for 1U eurorack cases"
 date: 2022-05-09
 image: "3u-to-1u-adapter.jpg"
+categories: ["3D Printing"]
 draft: false
 ---
 
