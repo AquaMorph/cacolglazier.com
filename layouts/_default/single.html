@@ -1,4 +1,10 @@
 {{ partial "header.html" . }}
 {{ partial "featuretext.html" . }}
-{{ .Content }}
+{{ if or (eq .Section "essays") (eq .Section "projects") }}
+<article class="prose">
+  {{ partial "content.html" . }}
+</article>
+{{ else }}
+  {{ partial "content.html" . }}
+{{ end }}
 {{ partialCached "footer.html" . }}

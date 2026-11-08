@@ -1,4 +1,7 @@
-baseurl = "/"
+baseurl = "https://cacolglazier.com/"
 languageCode = "en-us"
 title = "Christian Colglazier"
 enableEmoji = "true"
+
+[params]
+description = "Firmware engineer Christian Colglazier's projects, essays, photography, and videos."

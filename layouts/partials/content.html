@@ -1,0 +1,2 @@
+{{ $content := replace .Content "<table" "<div class=\"table-scroll\" tabindex=\"0\" role=\"region\" aria-label=\"Scrollable table\"><table" }}
+{{ replace $content "</table>" "</table></div>" | safeHTML }}
