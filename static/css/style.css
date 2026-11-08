@@ -25,6 +25,14 @@ p, li {
     line-height: 1.6;
 }
 
+.navbar .navbar-brand {
+    align-self: center;
+}
+.navbar .nav-item {
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+
 .prose {
     max-width: 70ch;
     margin: 0 auto;
